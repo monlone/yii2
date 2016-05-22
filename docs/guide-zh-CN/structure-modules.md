@@ -95,7 +95,7 @@ class PostController extends Controller
 ```
 
 可配置[[yii\base\Module::controllerNamespace]]属性来自定义控制器类的命名空间，
-如果一些控制器不再该命名空间下，可配置[[yii\base\Module::controllerMap]]属性让它们能被访问，
+如果一些控制器不在该命名空间下，可配置[[yii\base\Module::controllerMap]]属性让它们能被访问，
 这类似于 [应用主体配置](structure-applications.md#controller-map) 所做的。
 
 
@@ -224,7 +224,7 @@ class Module extends \yii\base\Module
 
 ## 最佳实践 <span id="best-practices"></span>
 
-模块在大型项目中常备使用，这些项目的特性可分组，每个组包含一些强相关的特性，
+模块在大型项目中常被使用，这些项目的特性可分组，每个组包含一些强相关的特性，
 每个特性组可以做成一个模块由特定的开发人员和开发组来开发和维护。
 
 在特性组上，使用模块也是重用代码的好方式，一些常用特性，如用户管理，评论管理，可以开发成模块，
